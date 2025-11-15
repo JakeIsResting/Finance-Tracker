@@ -1,9 +1,7 @@
-version: '3.8'
-
 services:
   database:
     image: postgres:17
-    container-name: fin-db
+    container_name: finContainer
     restart: no
     env_file:
       - .env
